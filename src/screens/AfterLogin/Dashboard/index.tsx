@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import AppNavigator from './src/navigation/Navigator'
 
-const App = () => {
+const Dashboard = () => {
   return (
-    <View style={{flex:1}}>
-      <AppNavigator />
+    <View>
+      <Text>Dashboard</Text>
     </View>
   )
 }
 
-export default App
+export default Dashboard
 
 const styles = StyleSheet.create({})
